@@ -1,0 +1,16 @@
+label{
+    color: rgb(125, 19, 151);
+}
+
+body{
+    background-color: darkgray;
+}
+.botao{
+    background-color: moccasin;
+}
+button{
+    color: rgb(248, 0, 174);
+}
+h1{
+    color: aquamarine;
+}  
