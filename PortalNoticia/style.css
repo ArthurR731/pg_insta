@@ -1,14 +1,13 @@
 h1{
-    color: green;
+    color: #121212;
 }
 
 h2{
-    color: brown;
-}
+    color: #121212}
 #economy{
-    background-color: rgb(113, 56, 167);
+    background-color: #A38C32;
 
 }
 #sports{
-    background-color: cadetblue;
+    background-color: rgba(0, 255, 0, 0.3);
 }
