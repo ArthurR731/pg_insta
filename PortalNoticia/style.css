@@ -1,13 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 h1{
     color: #121212;
 }
-
 h2{
-    color: #121212}
-#economy{
-    background-color: #A38C32;
-
+    color: #121212
 }
 #sports{
     background-color: rgba(0, 255, 0, 0.3);
+}
+#economy{
+    background-color: rgba(238, 255, 0, 0.5);
+
+}
+.creation-date{
+    color: #3d3c3c;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto 0 auto;
 }
