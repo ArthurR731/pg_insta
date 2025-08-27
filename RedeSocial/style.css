@@ -1,48 +1,41 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial; /* Fonte usada */
     background-color: #f9f9f9;
 }
-
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
     background-color: #fff;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ddd; /* adiciona uma linha da cor selecionada em baixo*/
     height: 60px;
     position: relative;
 }
-
 header h1 {
     font-size: 22px;
-    font-weight: bold;
-    position: absolute;
+    font-weight: bold; /* bota a fonte em negrito */
+    position: absolute; 
     left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 50%; /* Centraliza verticalmente */
 }
-
 ul.header {
     display: flex;
     list-style: none;
-    gap: 15px;
-    position: absolute;
+    gap: 15px; /* espaço entre itens*/
+    position: absolute; /* nao altera aa sua posição absoluta*/
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
 }
-
 ul.header li {
     font-size: 22px;
 }
-
 ul.header .search {
     padding: 5px 12px;
     border: 1px solid #ccc;
@@ -50,7 +43,6 @@ ul.header .search {
     cursor: text;
     font-size: 18px;
 }
-
 .perfil {
     display: flex;
     gap: 20px;
@@ -58,7 +50,6 @@ ul.header .search {
     position: relative;
     top: 20px;
 }
-
 .perfil img {
     width: 100px;
     height: 100px;
@@ -66,25 +57,21 @@ ul.header .search {
     object-fit: cover;
     border: 2px solid #fff;
 }
-
 .info-perfil {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-
 .nome-perfil {
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 10px;
 }
-
 .botoes {
     display: flex;
     gap: 10px;
     margin-bottom: 15px;
 }
-
 .botoes button {
     padding: 8px 15px;
     border: none;
@@ -92,50 +79,58 @@ ul.header .search {
     font-weight: bold;
     cursor: pointer;
 }
-
 .botoes .seguir {
-    background-color: #0095f6;
+    background-color: #036fb8;
     color: #fff;
 }
-
 .botoes .mensagem {
-    background-color: #dbdbdb;
+    background-color: #c2c1c1;
     color: #000;
 }
-
 .numeros {
     display: flex;
     gap: 30px;
     margin-bottom: 10px;
 }
-
 .numeros ul {
     list-style: none;
     text-align: center;
 }
-
-.numeros ul li:first-child {
+.numeros ul li:first-child { /* seleciona o ppr*/
     font-weight: bold;
     font-size: 18px;
 }
-
 .biografia {
     font-size: 14px;
     line-height: 1.5;
 }
-
 .container ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     list-style: none;
     gap: 20px;
     margin-top: 20px;
+    width: 30%;
+    margin-left: 33%
 }
-
 .container ul li a {
     text-decoration: none;
     color: #000;
     font-weight: bold;
     font-size: 16px;
 }
-
+.feed ul {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding: 0 20px; 
+    margin: 0; 
+    list-style: none;
+}
+.feed ul img{
+    width: 32%; 
+    height: 360px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    margin-top: 5px;
+}
