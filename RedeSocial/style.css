@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box; 
 }
+
 body {
     font-family: Arial; /* Fonte usada */
     background-color: #f9f9f9;
 }
+
 header {
     display: flex;
     align-items: center;
@@ -17,6 +19,7 @@ header {
     height: 60px;
     position: relative;
 }
+
 header h1 {
     font-size: 22px;
     font-weight: bold; /* bota a fonte em negrito */
@@ -24,6 +27,7 @@ header h1 {
     left: 20px;
     top: 50%; /* Centraliza verticalmente */
 }
+
 ul.header {
     display: flex;
     list-style: none;
@@ -31,11 +35,13 @@ ul.header {
     position: absolute; /* nao altera aa sua posição absoluta*/
     right: 20px;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%); /* Corrige a centralização */
 }
+
 ul.header li {
-    font-size: 22px;
+    font-size: 22px; 
 }
+
 ul.header .search {
     padding: 5px 12px;
     border: 1px solid #ccc;
@@ -43,6 +49,7 @@ ul.header .search {
     cursor: text;
     font-size: 18px;
 }
+
 .perfil {
     display: flex;
     gap: 20px;
@@ -50,28 +57,33 @@ ul.header .search {
     position: relative;
     top: 20px;
 }
+
 .perfil img {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
+    border-radius: 50%; /* deixa a foto redonda*/
     object-fit: cover;
     border: 2px solid #fff;
 }
+
 .info-perfil {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* deixa as fotos em coluna*/
     width: 100%;
 }
+
 .nome-perfil {
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 10px;
 }
+
 .botoes {
     display: flex;
     gap: 10px;
     margin-bottom: 15px;
 }
+
 .botoes button {
     padding: 8px 15px;
     border: none;
@@ -79,31 +91,38 @@ ul.header .search {
     font-weight: bold;
     cursor: pointer;
 }
+
 .botoes .seguir {
     background-color: #036fb8;
     color: #fff;
 }
+
 .botoes .mensagem {
     background-color: #c2c1c1;
     color: #000;
 }
+
 .numeros {
     display: flex;
     gap: 30px;
     margin-bottom: 10px;
 }
+
 .numeros ul {
     list-style: none;
     text-align: center;
 }
-.numeros ul li:first-child { /* seleciona o ppr*/
+
+.numeros ul li:first-child { /* seleciona o primeiro elemento li*/
     font-weight: bold;
     font-size: 18px;
 }
+
 .biografia {
     font-size: 14px;
     line-height: 1.5;
 }
+
 .container ul {
     display: flex;
     justify-content: space-between;
@@ -113,24 +132,27 @@ ul.header .search {
     width: 30%;
     margin-left: 33%
 }
+
 .container ul li a {
-    text-decoration: none;
+    text-decoration: none; /* remove o sublinhado*/
     color: #000;
     font-weight: bold;
     font-size: 16px;
 }
+
 .feed ul {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap; /*quebra linha automaticamente*/
     justify-content: space-between;
     padding: 0 20px; 
     margin: 0; 
     list-style: none;
 }
+
 .feed ul img{
     width: 32%; 
     height: 360px;
     margin-bottom: 10px;
-    object-fit: cover;
+    object-fit: cover; /*cover corta a iamgem sem perder qualidade*/
     margin-top: 5px;
 }
