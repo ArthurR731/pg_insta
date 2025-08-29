@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    
 }
 
 body {
@@ -121,6 +122,10 @@ ul.header .search {
 .biografia {
     font-size: 14px;
     line-height: 1.5;
+}
+
+.biografia ul:first-child {
+    color: rgba(142, 142, 142, 1);
 }
 
 .container ul {
